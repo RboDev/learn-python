@@ -1,9 +1,20 @@
-# IMGUI playground
+# Shiny for Python
 
+* https://shiny.rstudio.com/py/
 
+<3 Shiny for R.
 
-* https://pypi.org/project/imgui/
+## Create venv
 
-* https://youtu.be/wh_W-veFpKU
+Upgrade regularly as still in Apha version
 
-Interesting, fast, lightweight
+```
+pip install --upgrade shiny htmltools
+```
+
+## Create an app
+
+```
+shiny create .
+```
+
