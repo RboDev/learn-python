@@ -44,3 +44,4 @@ Nice possible to set in the project (toml)
 same issue `c:\` cannot import `c`...
 
 
+https://shiny.rstudio.com/py/docs/server.html
