@@ -1,4 +1,5 @@
 shiny
+pyrsistent   # creates immutable version of common data structures like list and dict.
 jinja2
 pandas
 matplotlib
