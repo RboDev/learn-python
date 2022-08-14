@@ -3,3 +3,4 @@ pyrsistent   # creates immutable version of common data structures like list and
 jinja2
 pandas
 matplotlib
+plotly
