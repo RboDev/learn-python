@@ -9,7 +9,7 @@ https://realpython.com/inheritance-composition-python/
 
 __Object composition__ is generally a better choice
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0mcP8ZpUR38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Why COMPOSITION is better than INHERITANCE - detailed Python example](https://youtu.be/0mcP8ZpUR38)
 
 ## How to choose between Composition and Inheritance ?
 A simple question to ask yourself to select between inheritance and composition is:
