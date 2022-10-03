@@ -1,0 +1,1 @@
+"""Specific high level driver for a DUT of type B."""
