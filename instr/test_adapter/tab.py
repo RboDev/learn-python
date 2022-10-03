@@ -6,10 +6,10 @@ This module defines the generic functions of the TAB board.
 
 class TAB:
 
-    def open():
+    def open(self, *args, **kwargs):
         ...
 
-    def close():
+    def close(self):
         ...
 
     def set_regulator_voltage(self, reg_id, volt):
