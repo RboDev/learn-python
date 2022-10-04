@@ -1,14 +1,17 @@
 
-# import with nothing in the __init__.py
-from instr.test_adapter.tab_a import TabA
+# import with nothing in the __init__.py and no factory
+from instr.test_adapter.tab import TAB
+from instr.test_adapter.tab_cat import TabCat
 
-tab = TabA()
-
+tab = TAB()
 tab.open()
 
-tab.power_up()
-tab.enable()
-tab.reset()
-tab.power_down()
+cat = TabCat(tab)
+
+
+cat.power_up()
+cat.enable()
+cat.reset()
+cat.power_down()
 
 tab.close()
