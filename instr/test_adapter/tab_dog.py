@@ -21,6 +21,9 @@ class TabDog:
     def __init__(self, tab:TAB):
         self.tab = tab
 
+    def close(self):
+        self.tab.close()
+
     def power_up(self):
         self.tab.set_regulator_voltage(*REG_3V3)
         self.tab.set_regulator_voltage(*REG_1V8)
