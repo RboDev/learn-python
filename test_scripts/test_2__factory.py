@@ -8,5 +8,9 @@ tab.enable()
 tab.reset()
 tab.power_down()
 
-# :-( 
-tab.tab.close()
+# :-(... wanted to yield the tab to close it automatically in the factory
+tab.close()
+
+# When the user knows what he's doing
+tab = create(port="COM5", pet="cat")
+tab.close()
