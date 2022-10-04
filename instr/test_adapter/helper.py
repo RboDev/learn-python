@@ -1,7 +1,6 @@
 """Helper functions for TAB"""
 
 from logging import warning
-from re import T
 from .tab import TAB
 
 
