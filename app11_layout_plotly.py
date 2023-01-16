@@ -33,7 +33,7 @@ def server(input, output, session):
         )
 
         fig = px.histogram(samples, nbins=input.bins())
-        return fig.to_image('png')
+        return fig.to_image(format='png')
 
 
 app = App(app_ui, server)
