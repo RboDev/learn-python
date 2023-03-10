@@ -1,4 +1,3 @@
-import requests
 import feedparser
 import urllib
 
@@ -8,9 +7,7 @@ rss_url = "https://radiofrance-podcast.net/podcast09/rss_10076.xml"
 # Bach du dimanche
 rss_url = "https://radiofrance-podcast.net/podcast09/rss_18189.xml"
 
-# Make a request to the RSS feed and parse it with feedparser
-response = requests.get(rss_url)
-feed = feedparser.parse(response.content)
+feed = feedparser.parse(rss_url)
 
 # Iterate over each entry in the feed
 for entry in feed.entries:
