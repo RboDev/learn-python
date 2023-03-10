@@ -1,6 +1,10 @@
+htmltools
 shiny
+# to upgrade to latest
+# pip install --upgrade shiny htmltools
 pyrsistent   # creates immutable version of common data structures like list and dict.
 jinja2
 pandas
 matplotlib
 plotly
+kaleido
